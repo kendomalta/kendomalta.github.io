@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap');
+
+:root {
+	--main-bg-color: darkgray;
+	--sec-bg-color: #008B8B;
+	--footer-bg-color: #484848;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+	background: var(--main-bg-color);
+	padding-top: 100px;
+}
+
+footer{
+	background: var(--footer-bg-color);
+	color: #ffffff;
+	font-size: 12px;
+}
+
+a, a:hover, a:focus, a:active{
+	outline: none;
+}
+
+h2{
+	font-weight: 400;
+	color: #ffffff;
+}
+
+#logo{
+	max-width: 50px;
+	margin-left: 30px;
+}
+
+#home, #articles, #contactus{
+	background: var(--sec-bg-color);
+}
+
+#malteseKendoka{
+	max-height: 100vh;
+}
+
+#home{
+	background: url("../../assets/img/mountFujiCrop.jpg") no-repeat;
+}
+
+.section-adj{
+	min-height: 100vh;
+}
+
+.navbar-changes{
+	padding: 20px;
+	background: #ffffff;
+	font-size: x-small;
+}
+
+#dojo .nav-link,
+#dojo .nav-link:focus{
+	background-color: var(--sec-bg-color);
+	color: #ffffff;
+	border: none;
+}
+
+#dojo .nav-link:hover{
+	filter: brightness(120%);
+}
+
+#dojo .active{
+	filter: brightness(120%);
+	border: 0px;
+}
+
+.anchor{ 
+  margin-top: -100px;        /* Size of fixed header */
+  padding-bottom: 100px; 
+  display: block; 
+}
+
+.descText{
+	font-size: 20px;
+	font-style: italic;
+}
+
+.underline { 
+    margin: 25px 0;
+    height: 1px;
+    border: 0;
+    background: #ffffff;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(transparent), color-stop(50%, white));
+}
